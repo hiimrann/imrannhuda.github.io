@@ -1,0 +1,156 @@
+/* Reset */
+
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 16px;
+  line-height: 120%;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* Reusables */
+
+:root {
+  --white-smoke: #eee;
+  --prussian-blue: #003153;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: var(--prussian-blue);
+  text-decoration: none;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
+
+/* HTML and body */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--white-smoke);
+  color: var(--prussian-blue);
+  font-family: 'Lexend', sans-serif;
+  max-width: 1700px;
+  margin: auto;
+}
+
+/* Navigation */
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  padding: 25px auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: var(--white-smoke);
+}
+
+.navigation a {
+  font-size: 2rem;
+}
+
+/* Hero */
+
+.hero {
+  height: 100vh;
+}
+
+.hero-elements {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+
+.profile-pic, .profile-name, .profile-description, .profile-links {
+  margin: 20px auto;
+}
+
+.profile-pic {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.profile-name, .profile-description {
+  text-align: center;
+}
+
+.profile-name {
+  font-size: 3.5rem;
+}
+
+.profile-description {
+  font-size: 2rem;
+}
+
+.profile-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+.profile-links a {
+  margin: auto 20px;
+}
+
+.profile-links ion-icon {
+  font-size: 2rem;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.profile-links span {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* Portfolio */
+
+.portfolio {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.portfolio figure {
+  margin-bottom: 30px;
+}
+
+.portfolio img, .portfolio figcaption {
+  max-width: 545px;
+  max-height: auto;
+  margin: auto 10px;
+}
+
+.portfolio figcaption {
+  font-size: 2rem;
+}
