@@ -1,56 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Imran N</title>
+  <head>
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Web designer & front-end developer portfolio."
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, portfolio, web developer, web designer, front-end developer"
+    />
+    <meta name="author" content="Imran" />
 
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/queries.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/queries.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend&display=swap"
+      rel="stylesheet"
+    />
 
-  <meta name="description" content="Web designer & front-end developer portfolio.">
-</head>
+    <!-- title -->
+    <title>Imran N</title>
+  </head>
 
-<body>
-  <nav class="navigation">
-    <a href="#hero-anchor">Imran N</a>
-    <a href="#portfolio-anchor">Portfolio</a>
-  </nav>
+  <body>
+    <!-- navigation -->
+    <nav class="navigation">
+      <a href="#hero-anchor">Imran N</a>
+      <a href="#portfolio-anchor">Portfolio</a>
+    </nav>
 
-  <div class="anchor" id="hero-anchor"></div>
+    <!-- hero section -->
+    <div class="anchor" id="hero-anchor"></div>
+    <main class="hero">
+      <header class="hero-elements">
+        <img
+          src="pictures/me.jpg"
+          alt="Imran wearing an uncool mask"
+          class="profile-pic"
+        />
+        <h1 class="profile-name">Imran N</h1>
+        <h2 class="profile-description">Web designer & front-end developer</h2>
+        <div class="profile-links">
+          <a href="https://github.com/imrannhuda"
+            ><ion-icon name="logo-github"></ion-icon><span>GitHub</span></a
+          >
+          <a href="https://join.skype.com/invite/o3NGwLN5tiPU"
+            ><ion-icon name="logo-skype"></ion-icon><span>Skype</span></a
+          >
+        </div>
+      </header>
+    </main>
 
-  <main class="hero">
-    <header class="hero-elements">
-      <img src="pictures/me.jpg" alt="Imran wearing an uncool mask" class="profile-pic">
-      <h1 class="profile-name">Imran N</h1>
-      <h2 class="profile-description">Web designer & front-end developer</h2>
-      <div class="profile-links">
-        <a href="https://github.com/imrannhuda"><ion-icon name="logo-github"></ion-icon><span>GitHub</span></a>
-        <a href="https://join.skype.com/invite/o3NGwLN5tiPU"><ion-icon name="logo-skype"></ion-icon><span>Skype</span></a>
-      </div>
-    </header>
-  </main>
+    <!-- portfolio section -->
+    <div class="anchor" id="portfolio-anchor"></div>
+    <section class="portfolio">
+      <!-- project 1 -->
+      <a
+        href="https://imrannhuda.github.io/easyebooks/"
+        class="project project-1"
+      >
+        <figure>
+          <img src="portfolio/01/easyebooks.png" alt="project screenshot" />
+          <figcaption>Easyebooks</figcaption>
+        </figure>
+      </a>
 
-  <div class="anchor" id="portfolio-anchor"></div>
+      <!-- project 2 -->
+      <a
+        href="https://imrannhuda.github.io/lorem-ipsum-tribute/"
+        class="project project-2"
+      >
+        <figure>
+          <img
+            src="portfolio/02/lorem-ipsum-tribute-page.png"
+            alt="project screenshot"
+          />
+          <figcaption>Lorem Ipsum Tribute Page</figcaption>
+        </figure>
+      </a>
 
-  <section class="portfolio">
-    <a href="https://imrannhuda.github.io/easyebooks/index.html" class="project">
-      <figure>
-        <img src="portfolio/01/easyebooks.png" alt="a landing page">
-        <figcaption>Landing page</figcaption>
-      </figure>
-    </a>
-    <a href="https://imrannhuda.github.io/lorem-ipsum-tribute/" class="project">
-      <figure>
-        <img src="portfolio/02/lorem-ipsum-tribute-page.png" alt="a tribute page">
-        <figcaption>Tribute page</figcaption>
-      </figure>
-    </a>
-  </section>
+      <!-- project 3 -->
+      <a
+        href="https://imrannhuda.github.io/guess-my-number/"
+        class="project project-3"
+      >
+        <figure>
+          <img
+            src="portfolio/03/guess-my-number.png"
+            alt="project screenshot"
+          />
+          <figcaption>Guess My Number!</figcaption>
+        </figure>
+      </a>
+    </section>
 
-  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-</body>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </body>
 </html>

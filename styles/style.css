@@ -1,4 +1,4 @@
-/* Reset */
+/* css reset */
 
 * {
   vertical-align: baseline;
@@ -14,14 +14,17 @@
   margin: 0;
 }
 
-/* Reusables */
+/* reusables */
 
 :root {
   --white-smoke: #eee;
   --prussian-blue: #003153;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link,
+a:visited,
+a:hover,
+a:active {
   color: var(--prussian-blue);
   text-decoration: none;
 }
@@ -33,7 +36,7 @@ a:link, a:visited, a:hover, a:active {
   visibility: hidden;
 }
 
-/* HTML and body */
+/* html and body */
 
 html {
   scroll-behavior: smooth;
@@ -42,12 +45,12 @@ html {
 body {
   background-color: var(--white-smoke);
   color: var(--prussian-blue);
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
   max-width: 1700px;
   margin: auto;
 }
 
-/* Navigation */
+/* navigation */
 
 .navigation {
   display: flex;
@@ -67,7 +70,7 @@ body {
   font-size: 2rem;
 }
 
-/* Hero */
+/* hero */
 
 .hero {
   height: 100vh;
@@ -81,7 +84,10 @@ body {
   width: 90%;
 }
 
-.profile-pic, .profile-name, .profile-description, .profile-links {
+.profile-pic,
+.profile-name,
+.profile-description,
+.profile-links {
   margin: 20px auto;
 }
 
@@ -93,7 +99,8 @@ body {
   max-height: 300px;
 }
 
-.profile-name, .profile-description {
+.profile-name,
+.profile-description {
   text-align: center;
 }
 
@@ -132,7 +139,7 @@ body {
   font-size: 1.2rem;
 }
 
-/* Portfolio */
+/* portfolio */
 
 .portfolio {
   display: flex;
@@ -143,9 +150,11 @@ body {
 
 .portfolio figure {
   margin-bottom: 30px;
+  text-align: center;
 }
 
-.portfolio img, .portfolio figcaption {
+.portfolio img,
+.portfolio figcaption {
   max-width: 545px;
   max-height: auto;
   margin: auto 10px;
@@ -153,4 +162,18 @@ body {
 
 .portfolio figcaption {
   font-size: 2rem;
+}
+
+/* portfolio projects */
+
+.project-1 {
+  order: 1;
+}
+
+.project-2 {
+  order: 3;
+}
+
+.project-3 {
+  order: 2;
 }

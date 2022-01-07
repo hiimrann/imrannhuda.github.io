@@ -1,33 +1,43 @@
 @media (max-width: 1200px) {
-  .portfolio img, .portfolio figcaption {
+  .portfolio img,
+  .portfolio figcaption {
     max-width: 500px;
   }
 }
 
 @media (max-width: 1100px) {
-  .portfolio img, .portfolio figcaption {
+  .portfolio img,
+  .portfolio figcaption {
     max-width: 450px;
   }
 }
 
 @media (max-width: 1000px) {
-  .portfolio img, .portfolio figcaption {
+  .portfolio img,
+  .portfolio figcaption {
     max-width: 400px;
   }
 }
 
 @media (max-width: 900px) {
-  .navigation a, .profile-description, .profile-links ion-icon, .portfolio figcaption {
+  .navigation a,
+  .profile-description,
+  .profile-links ion-icon,
+  .portfolio figcaption {
     font-size: 1.8rem;
   }
 
-  .portfolio img, .portfolio figcaption {
+  .portfolio img,
+  .portfolio figcaption {
     max-width: 545px;
   }
 }
 
 @media (max-width: 800px) {
-  .navigation a, .profile-description, .profile-links ion-icon, .portfolio figcaption {
+  .navigation a,
+  .profile-description,
+  .profile-links ion-icon,
+  .portfolio figcaption {
     font-size: 1.5rem;
   }
 
@@ -42,7 +52,10 @@
     max-height: 250px;
   }
 
-  .navigation a, .profile-description, .profile-links ion-icon, .portfolio figcaption {
+  .navigation a,
+  .profile-description,
+  .profile-links ion-icon,
+  .portfolio figcaption {
     font-size: 1.2rem;
   }
 
@@ -57,7 +70,8 @@
     max-height: 200px;
   }
 
-  .portfolio img, .portfolio figcaption {
+  .portfolio img,
+  .portfolio figcaption {
     max-width: 450px;
   }
 }
@@ -68,7 +82,8 @@
     max-height: 150px;
   }
 
-  .portfolio img, .portfolio figcaption {
+  .portfolio img,
+  .portfolio figcaption {
     max-width: 350px;
   }
 }
@@ -79,7 +94,8 @@
     max-height: 100px;
   }
 
-  .portfolio img, .portfolio figcaption {
+  .portfolio img,
+  .portfolio figcaption {
     max-width: 250px;
   }
 }
