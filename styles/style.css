@@ -145,11 +145,10 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-bottom: 100px;
 }
 
 .portfolio figure {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
