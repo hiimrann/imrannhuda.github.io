@@ -29,6 +29,9 @@
   </head>
 
   <body>
+    <!-- overlay -->
+    <div class="overlay hidden"></div>
+
     <!-- navigation -->
     <nav class="navigation">
       <a href="#hero-anchor">Imran N</a>
@@ -47,12 +50,14 @@
         <h1 class="profile-name">Imran N</h1>
         <h2 class="profile-description">Web designer & front-end developer</h2>
         <div class="profile-links">
-          <a href="https://github.com/imrannhuda"
-            ><ion-icon name="logo-github"></ion-icon><span>GitHub</span></a
-          >
-          <a href="https://join.skype.com/invite/o3NGwLN5tiPU"
-            ><ion-icon name="logo-skype"></ion-icon><span>Skype</span></a
-          >
+          <a href="https://github.com/imrannhuda">
+            <ion-icon name="logo-github"></ion-icon>
+            <span>GitHub</span>
+          </a>
+          <a href="https://join.skype.com/invite/o3NGwLN5tiPU">
+            <ion-icon name="logo-skype"></ion-icon>
+            <span>Skype</span>
+          </a>
         </div>
       </header>
     </main>
@@ -61,45 +66,178 @@
     <div class="anchor" id="portfolio-anchor"></div>
     <section class="portfolio">
       <!-- project 1 -->
-      <a
-        href="https://imrannhuda.github.io/easyebooks/"
-        class="project project-1"
-      >
-        <figure>
-          <img src="portfolio/01/easyebooks.png" alt="project screenshot" />
-          <figcaption>Easyebooks</figcaption>
-        </figure>
-      </a>
-
-      <!-- project 2 -->
-      <a
-        href="https://imrannhuda.github.io/lorem-ipsum-tribute/"
-        class="project project-2"
-      >
+      <div class="project project-1">
         <figure>
           <img
-            src="portfolio/02/lorem-ipsum-tribute-page.png"
+            src="portfolio/project-01/desktop-easyebooks.png"
+            alt="project screenshot"
+          />
+          <figcaption>Easyebooks</figcaption>
+        </figure>
+      </div>
+
+      <!-- project 1 modal -->
+      <div class="modal hidden">
+        <button class="close-modal">
+          <ion-icon name="close"></ion-icon>
+        </button>
+        <table>
+          <tr>
+            <td>Project name:</td>
+            <td>Easyebooks</td>
+          </tr>
+          <tr>
+            <td>Type of website:</td>
+            <td>Landing page</td>
+          </tr>
+          <tr>
+            <td>Technologies used:</td>
+            <td>HTML, CSS, jQuery</td>
+          </tr>
+          <tr>
+            <td>Highlight skills:</td>
+            <td>CSS, copywriting</td>
+          </tr>
+          <tr class="external-links">
+            <td>External links:</td>
+            <td>
+              <a href="https://github.com/imrannhuda/easyebooks"
+                >View the code</a
+              >
+              or
+              <a href="https://imrannhuda.github.io/easyebooks/"
+                >visit the website</a
+              >
+            </td>
+          </tr>
+          <tr class="mobile-view">
+            <td>Mobile view:</td>
+            <td>
+              <img
+                src="portfolio/project-01/mobile-easyebooks.png"
+                alt="project in mobile view"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- project 2 -->
+      <div class="project project-2">
+        <figure>
+          <img
+            src="portfolio/project-02/desktop-lorem-ipsum.png"
             alt="project screenshot"
           />
           <figcaption>Lorem Ipsum Tribute Page</figcaption>
         </figure>
-      </a>
+      </div>
+
+      <!-- project 2 modal -->
+      <div class="modal hidden">
+        <button class="close-modal">
+          <ion-icon name="close"></ion-icon>
+        </button>
+        <table>
+          <tr>
+            <td>Project name:</td>
+            <td>Lorem Ipsum Tribute Page</td>
+          </tr>
+          <tr>
+            <td>Type of website:</td>
+            <td>Tribute page</td>
+          </tr>
+          <tr>
+            <td>Technologies used:</td>
+            <td>HTML, CSS</td>
+          </tr>
+          <tr>
+            <td>Highlight skills:</td>
+            <td>CSS</td>
+          </tr>
+          <tr class="external-links">
+            <td>External links:</td>
+            <td>
+              <a href="https://github.com/imrannhuda/lorem-ipsum-tribute"
+                >View the code</a
+              >
+              or
+              <a href="https://imrannhuda.github.io/lorem-ipsum-tribute/"
+                >visit the website</a
+              >
+            </td>
+          </tr>
+          <tr class="mobile-view">
+            <td>Mobile view:</td>
+            <td>
+              <img
+                src="portfolio/project-02/mobile-lorem-ipsum.png"
+                alt="project in mobile view"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
 
       <!-- project 3 -->
-      <a
-        href="https://imrannhuda.github.io/guess-my-number/"
-        class="project project-3"
-      >
+      <div class="project project-3">
         <figure>
           <img
-            src="portfolio/03/guess-my-number.png"
+            src="portfolio/project-03/desktop-guess-my-number.png"
             alt="project screenshot"
           />
           <figcaption>Guess My Number!</figcaption>
         </figure>
-      </a>
-    </section>
+      </div>
 
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <!-- project 3 modal -->
+    <div class="modal hidden">
+      <button class="close-modal">
+        <ion-icon name="close"></ion-icon>
+      </button>
+      <table>
+        <tr>
+          <td>Project name:</td>
+          <td>Guess my number!</td>
+        </tr>
+        <tr>
+          <td>Type of website:</td>
+          <td>JavaScript game</td>
+        </tr>
+        <tr>
+          <td>Technologies used:</td>
+          <td>HTML, CSS, JavaScript</td>
+        </tr>
+        <tr>
+          <td>Highlight skills:</td>
+          <td>JavaScript, CSS</td>
+        </tr>
+        <tr class="external-links">
+          <td>External links:</td>
+          <td>
+            <a href="https://github.com/imrannhuda/guess-my-number"
+              >View the code</a
+            >
+            or
+            <a href="https://imrannhuda.github.io/guess-my-number/"
+              >visit the website</a
+            >
+          </td>
+        </tr>
+        <tr class="mobile-view">
+          <td>Mobile view:</td>
+          <td>
+            <img
+              src="portfolio/project-03/mobile-guess-my-number.png"
+              alt="project in mobile view"
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
