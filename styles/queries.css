@@ -33,7 +33,7 @@
   }
 
   .modal {
-    min-width: 800px;
+    min-width: 780px;
   }
 }
 
@@ -51,7 +51,7 @@
   }
 
   .modal {
-    min-width: 700px;
+    min-width: 680px;
   }
 }
 
@@ -74,7 +74,7 @@
   }
 
   .modal {
-    min-width: 600px;
+    min-width: 580px;
   }
 }
 
@@ -102,7 +102,7 @@
   }
 
   .modal {
-    min-width: 500px;
+    min-width: 480px;
   }
 }
 
@@ -118,7 +118,7 @@
   }
 
   .modal {
-    min-width: 400px;
+    min-width: 380px;
   }
 
   .mobile-view {
@@ -138,7 +138,7 @@
   }
 
   .modal {
-    min-width: 300px;
+    min-width: 280px;
   }
 
   .modal td,
@@ -148,10 +148,6 @@
 }
 
 @media (max-width: 300px) {
-  .modal {
-    min-width: 280px;
-  }
-
   .modal td,
   .modal td a {
     font-size: 0.6rem;
