@@ -170,15 +170,15 @@ body {
 }
 
 .project-1 {
-  order: 1;
-}
-
-.project-2 {
   order: 3;
 }
 
-.project-3 {
+.project-2 {
   order: 2;
+}
+
+.project-3 {
+  order: 1;
 }
 
 /* modals */
