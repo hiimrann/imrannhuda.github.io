@@ -1,10 +1,12 @@
 "use strict!";
 
+// select elements
 let overlay = document.querySelector(".overlay");
 let project = document.querySelectorAll(".project");
 let modal = document.querySelectorAll(".modal");
 let btnCloseModal = document.querySelectorAll(".close-modal");
 
+// iterate through each modal
 for (let i = 0; i < modal.length; i++) {
   // function for opening modals
   let openModal = function () {

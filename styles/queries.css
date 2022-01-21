@@ -20,13 +20,6 @@
 }
 
 @media (max-width: 900px) {
-  .navigation a,
-  .profile-description,
-  .profile-links ion-icon,
-  .portfolio figure figcaption {
-    font-size: 1.8rem;
-  }
-
   .portfolio figure img,
   .portfolio figure figcaption {
     max-width: 545px;
@@ -38,18 +31,6 @@
 }
 
 @media (max-width: 800px) {
-  .navigation a,
-  .profile-description,
-  .profile-links ion-icon,
-  .profile-links span,
-  .portfolio figure figcaption {
-    font-size: 1.5rem;
-  }
-
-  .profile-name {
-    font-size: 2rem;
-  }
-
   .modal {
     min-width: 680px;
   }
@@ -59,18 +40,6 @@
   .profile-pic {
     max-width: 250px;
     max-height: 250px;
-  }
-
-  .navigation a,
-  .profile-description,
-  .profile-links ion-icon,
-  .profile-links span,
-  .portfolio figure figcaption {
-    font-size: 1.2rem;
-  }
-
-  .profile-name {
-    font-size: 1.8rem;
   }
 
   .modal {
