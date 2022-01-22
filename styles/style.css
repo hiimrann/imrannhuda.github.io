@@ -68,6 +68,7 @@ body {
   right: 0;
   z-index: 1;
   background-color: var(--background-color);
+  box-shadow: 0 0.1px 1px var(--primary-color);
 }
 
 .navigation a {
