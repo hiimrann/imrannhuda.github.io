@@ -1,12 +1,26 @@
 "use strict!";
 
 // select elements
+let btnHero = document.querySelector(".btn-hero");
+let btnPortfolio = document.querySelector(".btn-portfolio");
+let hero = document.querySelector(".hero");
+let portfolio = document.querySelector(".portfolio");
 let overlay = document.querySelector(".overlay");
 let project = document.querySelectorAll(".project");
 let modal = document.querySelectorAll(".modal");
 let btnCloseModal = document.querySelectorAll(".close-modal");
 
-// iterate through each modal
+// scroll to hero section
+btnHero.addEventListener("click", function () {
+  hero.scrollIntoView();
+});
+
+// scroll to portfolio section
+btnPortfolio.addEventListener("click", function () {
+  portfolio.scrollIntoView();
+});
+
+// view the modals
 for (let i = 0; i < modal.length; i++) {
   // function for opening modals
   let openModal = function () {

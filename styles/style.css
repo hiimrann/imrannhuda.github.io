@@ -16,6 +16,7 @@
   outline: 0;
   padding: 0;
   margin: 0;
+  scroll-margin-top: 50px;
 }
 
 /* reusables */
@@ -31,13 +32,6 @@ a:hover,
 a:active {
   color: var(--primary-color);
   text-decoration: none;
-}
-
-.anchor {
-  display: block;
-  position: relative;
-  top: -50px;
-  visibility: hidden;
 }
 
 /* html and body */
@@ -71,8 +65,11 @@ body {
   box-shadow: 0 0.1px 1px var(--primary-color);
 }
 
-.navigation a {
+.navigation button {
   font-size: 1.5rem;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  cursor: pointer;
 }
 
 /* hero */
