@@ -219,6 +219,7 @@ body {
   position: absolute;
   right: 10px;
   color: var(--primary-color);
+  background-color: var(--background-color);
 }
 table {
   margin: auto;
