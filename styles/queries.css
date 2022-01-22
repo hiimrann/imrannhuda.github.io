@@ -61,6 +61,10 @@
     font-size: 1rem;
   }
 
+  .profile-description::after {
+    width: 1rem;
+  }
+
   .profile-name {
     font-size: 1.5rem;
   }
