@@ -9,6 +9,13 @@ let overlay = document.querySelector(".overlay");
 let project = document.querySelectorAll(".project");
 let modal = document.querySelectorAll(".modal");
 let btnCloseModal = document.querySelectorAll(".close-modal");
+let loadingScreen = document.querySelector(".loading-screen");
+
+// remove loading screen
+let removeLoadingScreen = function () {
+  loadingScreen.remove();
+};
+setTimeout(removeLoadingScreen, 1000);
 
 // scroll to hero section
 btnHero.addEventListener("click", function () {
