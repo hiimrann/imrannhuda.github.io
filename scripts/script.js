@@ -10,10 +10,31 @@ let project = document.querySelectorAll(".project");
 let modal = document.querySelectorAll(".modal");
 let btnCloseModal = document.querySelectorAll(".close-modal");
 let loadingScreen = document.querySelector(".loading-screen");
+let profileDescription = document.querySelector(".profile-description");
+
+// typing effect after loading screen
+// starting conditions
+let loadingScreenRemoved = false;
+let secondHat = " & front-end developer";
+let counter = 0;
 
 // remove loading screen
 let removeLoadingScreen = function () {
   loadingScreen.remove();
+  loadingScreenRemoved = true;
+
+  // start typing effect
+  if (loadingScreenRemoved) {
+    function typingEffect() {
+      // add second profession in the profile description
+      if (counter < secondHat.length) {
+        profileDescription.innerHTML += secondHat.charAt(counter);
+        counter++;
+        setTimeout(typingEffect, 100);
+      }
+    }
+    setTimeout(typingEffect, 1000);
+  }
 };
 setTimeout(removeLoadingScreen, 1000);
 
