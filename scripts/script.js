@@ -15,7 +15,7 @@ let profileDescription = document.querySelector(".profile-description");
 // typing effect after loading screen
 // starting conditions
 let loadingScreenRemoved = false;
-let secondHat = " & front-end developer";
+let typingEffectText = "Front-end ninja";
 let counter = 0;
 
 // remove loading screen
@@ -27,8 +27,8 @@ let removeLoadingScreen = function () {
   if (loadingScreenRemoved) {
     function typingEffect() {
       // add second profession in the profile description
-      if (counter < secondHat.length) {
-        profileDescription.innerHTML += secondHat.charAt(counter);
+      if (counter < typingEffectText.length) {
+        profileDescription.innerHTML += typingEffectText.charAt(counter);
         counter++;
         setTimeout(typingEffect, 100);
       }
