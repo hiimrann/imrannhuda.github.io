@@ -15,7 +15,7 @@ let profileDescription = document.querySelector(".profile-description");
 // typing effect after loading screen
 // starting conditions
 let loadingScreenRemoved = false;
-let profileDescriptionText = "Front-end ninja";
+let profileDescriptionText = "Front-end ninja in training";
 let counter = 0;
 
 // remove loading screen
