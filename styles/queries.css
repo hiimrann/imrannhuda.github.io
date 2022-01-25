@@ -1,27 +1,27 @@
 @media (max-width: 1200px) {
-  .portfolio figure img,
-  .portfolio figure figcaption {
+  .project figure img,
+  .project figure figcaption {
     max-width: 500px;
   }
 }
 
 @media (max-width: 1100px) {
-  .portfolio figure img,
-  .portfolio figure figcaption {
+  .project figure img,
+  .project figure figcaption {
     max-width: 450px;
   }
 }
 
 @media (max-width: 1000px) {
-  .portfolio figure img,
-  .portfolio figure figcaption {
+  .project figure img,
+  .project figure figcaption {
     max-width: 400px;
   }
 }
 
 @media (max-width: 900px) {
-  .portfolio figure img,
-  .portfolio figure figcaption {
+  .project figure img,
+  .project figure figcaption {
     max-width: 545px;
   }
 
@@ -57,7 +57,7 @@
   .profile-description,
   .profile-links ion-icon,
   .profile-links span,
-  .portfolio figure figcaption {
+  .project figure figcaption {
     font-size: 1rem;
   }
 
@@ -69,8 +69,8 @@
     font-size: 1.5rem;
   }
 
-  .portfolio figure img,
-  .portfolio figure figcaption {
+  .project figure img,
+  .project figure figcaption {
     max-width: 450px;
   }
 
@@ -85,8 +85,8 @@
     max-height: 150px;
   }
 
-  .portfolio figure img,
-  .portfolio figure figcaption {
+  .project figure img,
+  .project figure figcaption {
     max-width: 350px;
   }
 
@@ -105,8 +105,8 @@
     max-height: 100px;
   }
 
-  .portfolio figure img,
-  .portfolio figure figcaption {
+  .project figure img,
+  .project figure figcaption {
     max-width: 250px;
   }
 

@@ -198,27 +198,25 @@ body {
   justify-content: center;
 }
 
-.portfolio figure {
+.project {
+  cursor: pointer;
   margin-bottom: 25px;
+}
+
+.project figure {
   text-align: center;
 }
 
-.portfolio figure img,
-.portfolio figure figcaption {
+.project figure img,
+.project figure figcaption {
   max-width: 545px;
   max-height: auto;
   margin: auto 10px;
 }
 
-.portfolio figure figcaption {
+.project figure figcaption {
   font-size: 1.5rem;
   margin-top: 10px;
-}
-
-/* portfolio projects */
-
-.project {
-  cursor: pointer;
 }
 
 .project-1 {
