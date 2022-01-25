@@ -36,7 +36,7 @@ let removeLoadingScreen = function () {
     setTimeout(typingEffect, 1000);
   }
 };
-setTimeout(removeLoadingScreen, 1000);
+setTimeout(removeLoadingScreen, 2000);
 
 // scroll to hero section
 btnHero.addEventListener("click", function () {
