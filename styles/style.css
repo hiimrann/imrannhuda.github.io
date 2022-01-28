@@ -200,7 +200,6 @@ body {
 
 .project {
   cursor: pointer;
-  margin-bottom: 25px;
 }
 
 .project figure {
@@ -209,14 +208,15 @@ body {
 
 .project figure img,
 .project figure figcaption {
-  max-width: 545px;
+  max-width: 600px;
   max-height: auto;
-  margin: auto 10px;
+  margin: auto 15px;
 }
 
 .project figure figcaption {
   font-size: 1.5rem;
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .project-1 {
